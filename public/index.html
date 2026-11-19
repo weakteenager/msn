@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3b78b5">
+  <title>MSN Chat — Genel Sohbet</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="desktop">
+    <div class="window">
+      <div class="titlebar">
+        <div class="title-left"><span class="msn-butterfly">✿</span><span>MSN Chat</span></div>
+        <div class="window-buttons"><span>_</span><span>□</span><span class="close">×</span></div>
+      </div>
+
+      <div class="toolbar">
+        <span class="toolbar-icon">✉</span>
+        <span>Genel Sohbet</span>
+        <span class="toolbar-spacer"></span>
+        <span class="status-dot"></span>
+        <span id="online-count">Bağlanıyor…</span>
+      </div>
+
+      <div class="chat-area" id="chat-area" aria-live="polite">
+        <div class="system-message">MSN Chat'e hoş geldin! Sohbet başlıyor…</div>
+      </div>
+
+      <div class="identity"><span class="small-status"></span> Sohbetteki adın: <strong id="username">atanıyor…</strong></div>
+
+      <form id="message-form" class="composer">
+        <textarea id="message-input" maxlength="300" rows="2" placeholder="Bir mesaj yaz..." aria-label="Mesajın" disabled></textarea>
+        <button id="send-button" type="submit" disabled>Gönder</button>
+      </form>
+      <div class="footer"><span>Herkese açık sohbet</span><span>MSN Chat • 2000'lerden selamlar</span></div>
+    </div>
+    <div class="desktop-note">✦ sohbet etmek için buradasın ✦</div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
