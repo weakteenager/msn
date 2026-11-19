@@ -1,0 +1,12 @@
+{
+  "name": "msn-chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny public MSN-style chat room",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
